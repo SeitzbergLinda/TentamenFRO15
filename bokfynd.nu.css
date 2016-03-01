@@ -1,6 +1,11 @@
-﻿body{
+{@import url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+}
 
-background-color:white;}
+
+body{
+
+background-color:white;
+}
 
 
 
@@ -18,12 +23,13 @@ margin-top:20px;
 {
 	height:180px;
 	width:1200px;
-	padding:10px;
+	padding-left:40px;
 	background-color:white;
 	border-bottom:thick #CC6600 solid;
 	margin-bottom:15px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:50px;
 
 	}
 
@@ -58,7 +64,7 @@ margin-top:20px;
 	height:200px;
 	width:150px;
 	border:thin black solid;
-	margin:15px;
+	margin:23px;
 	float:left;
 	background-color:white;
 	
@@ -69,6 +75,8 @@ h1
 	text-align:center;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font:white;
+	padding-top:50px;
+
 }
 
 h2{
@@ -79,7 +87,7 @@ h2{
 
 h4{
 	
-}
+
   font-family:"Courier New", Courier, monospace;
 	font-size:20px;
 }
@@ -101,6 +109,7 @@ image
 	background-color:#CCCCCC;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:10px;
 	
 	
 	
@@ -120,7 +129,7 @@ ul
     background-color:#6699FF;
     color: white;
     padding: 8px;
-    font-size: 14px;
+    font-size: 20px;
     border:solid thin silver;
     border-radius:10px;
     cursor: pointer;
@@ -345,4 +354,41 @@ ul
 	margin-top: -90px;
 	background-color: #e2d439;
 	background-position: 0 100px;
+	
+
 }
+.corner-ribbon{
+  width: 300px;
+  background: #e43;
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 30px;
+  left: -75px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.yellow
+{background: #ffd700;}
