@@ -1,0 +1,18 @@
+﻿body{
+	background-color:#C0C0C0;
+	
+}
+
+.wrapper
+{
+	width:1200px;
+	height:auto;
+	background-color:#C0C0C0;
+}
+
+.smallbox
+{
+	height:75px;
+	width:700px;
+	border:thin black;
+}
